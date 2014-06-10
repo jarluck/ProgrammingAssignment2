@@ -1,5 +1,6 @@
 
 ## returns wrapper object for matrix w/ fns to set and get inverse.
+##Substantially based on rpeng's vector cacheing routines
 makeCacheMatrix <- function(x = matrix()) { ##intializes w/ empty matrix if no argument provided
    
 
