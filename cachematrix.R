@@ -1,7 +1,7 @@
 
-
+## returns wrapper object for matrix w/ fns to set and get inverse.
 makeCacheMatrix <- function(x = matrix()) { ##intializes w/ empty matrix if no argument provided
-  ## returns wrapper object for matrix w/ fns to set and get inverse. 
+   
 
   i <- NULL ##placeholder for inverse
   set <- function(y) {
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) { ##intializes w/ empty matrix if no a
 }
 
 
-## Write a short comment describing this function
+## return inverse of x. Calculate if not already cached; returns stored value of already there.
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
